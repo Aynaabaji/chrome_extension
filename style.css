@@ -1,0 +1,56 @@
+.root{
+    width: 500px;
+    height: 800px;
+    margin: 0 auto;
+    background: cornsilk;
+    border: 2px solid salmon;
+    box-sizing: border-box;
+    text-align: center;
+    color: olive;
+    padding: 1.5rem;
+}
+
+#heading{
+    margin: 3rem 0;
+}
+
+input{
+    background: rgb(248, 174, 174);
+    width: 100%;
+    color: rgb(78, 45, 1);
+    box-sizing: border-box;
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+
+button{
+    padding: 1rem 1.5rem;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border: 2px solid salmon;
+    color: rgb(85, 9, 1);
+    background: transparent;
+    cursor: pointer;
+}
+
+small{
+    color: darkred;
+    display: flex;
+    justify-content: center;
+}
+
+ul{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    text-align: left;
+}
+
+li{
+    list-style-type: none;
+    background: darkgrey;
+    padding: 0.5rem 1.5rem;
+}
